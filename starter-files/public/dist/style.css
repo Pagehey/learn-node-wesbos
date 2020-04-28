@@ -503,6 +503,9 @@ input, textarea {
   input.input--error, textarea.input--error {
     border-color: red; }
 
+textarea {
+  resize: vertical; }
+
 label {
   padding: 10px 0;
   display: block; }
@@ -795,6 +798,7 @@ label {
   list-style: none;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 1rem;
   margin-bottom: 2rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
