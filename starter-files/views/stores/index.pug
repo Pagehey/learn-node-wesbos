@@ -1,0 +1,10 @@
+extends ../layout
+
+include _storeCard
+
+block content
+  .inner
+    h2 The stores
+    .stores
+      each store in stores
+        +storeCard(store)
